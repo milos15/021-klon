@@ -1,3 +1,82 @@
+body {
+    margin: 0; 
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f4f5;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    border-bottom: 8px solid #f15c25;
+    position: sticky;
+    top:0;
+    left:0;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.nav-left .meni {
+    padding: 10px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    margin-right: 5px;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+}
+
+.meni {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;   
+}
+
+.meni a {
+    color: black;
+    text-decoration: none;
+}
+
+.meni-item-orange {
+    color: #f15c25 !important; /* Because of higher specificity */
+    border: 3px solid #f15c25;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.meni-item-blue {
+    color: #087cd1 !important; /* Because of higher specificity */
+    border: 3px solid #087cd1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ button {
+    background-color: #087cd1;
+    color: white; 
+    padding: 15px;
+    border: #087cd1;
+    border-radius: 5px;   
+ }
+ 
+
+
 
 
 

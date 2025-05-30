@@ -15,28 +15,38 @@
 <body>
 
     <header>
-        <!--Logo-->
-        <a href="/"><img src="./assets/images/021-logo.JPG" alt="021 logo" class="logo"></a>
+        <div class="nav-left">
+            <!--Logo-->
+            <a href="/"><img src="./assets/images/021-logo.JPG" alt="021-logo" class="logo"></a>
 
-        <!--Meni-->
-        <nav>
-            <ul class="meni"> 
-                <li><a href="https://www.021.rs/Najnovije/3">Najnovije</a></li>
-                <li><a href="/protesti">Protesti</a></li>
-                <li><a href="/novi-sad">Novi Sad</a></li>
-                <li><a href="/info">Info</a></li>
-                <li><a href="/radio-021-live">Radio 021 Live </a></li>
-                <li><a href="/oglasi-za-posao">Oglasi za posao </a></li>
-                <li><a href="/zivot">Zivot</a></li>
-                <li><a href="/zabava">Zabava</a></li>
-                <li><button>Posalji Vest</button></li>
-            </ul>
-        </nav>
+            <!--Meni-->
+            <nav>
+                <ul class="meni"> 
+                    <li><a href="https://www.021.rs/Najnovije/3">Najnovije</a></li>
+                    <li><a href="/protesti">Protesti</a></li>
+                    <li><a href="/novi-sad">Novi Sad</a></li>
+                    <li><a href="/info">Info</a></li>
+                    <li><a href="/radio-021-live" class="meni-item-orange">Radio 021 Live </a></li>
+                    <li><a href="/oglasi-za-posao" class="meni-item-blue">Oglasi za posao </a></li>
+                    <li><a href="/zivot">Zivot</a></li>
+                    <li><a href="/zabava">Zabava</a></li>
+                
+                </ul>    
+            </nav>
+        </div>
+
+        <div class="nav-right">
+        <!--Buttons-->
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button>Posalji Vest</button>
+            <button><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        
     </header>
 
     <main>
         <!--First section -->
-        <section class="articles-1">
+        <section class="articles">
             <div class="left-side">
                 <article>
                     <img src="https://picsum.photos/620/360" alt="">
@@ -96,28 +106,95 @@
                 </article>
             </div>
         </section>
+
+
+        <!-- Second section -->
+        <section class="boxes">
+            <div class="box-1">
+                <article>
+                    <img src="https://picsum.photos/300/170" alt="">
+                    <h1>Policija isključila 12 vozača iz saobraćaja: Jedan vozio totalno pijan i pod dejstvom narkotika</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+            </div>
+
+            <div class="box-2">
+                <article>
+                    <img src="https://picsum.photos/300/170" alt="">
+                    <h1>Policija isključila 12 vozača iz saobraćaja: Jedan vozio totalno pijan i pod dejstvom narkotika</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+            </div>
+
+            <div class="box-3">
+                <article>
+                    <img src="https://picsum.photos/300/170" alt="">
+                    <h1>Policija isključila 12 vozača iz saobraćaja: Jedan vozio totalno pijan i pod dejstvom narkotika</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+
+                <article>
+                    <h1>Sledeće sedmice preko 30 stepeni</h1>
+                </article>
+            </div>
+
+            <div class="najnovije">
+                <h1>Lorem ispum </h1>
+                <h1>Lorem ispum </h1>
+                <h1>Lorem ispum </h1>
+                <h1>Lorem ispum </h1>
+                <h1>Lorem ispum </h1>
+            </div>
+        </section>
     </main>
 
-    
-
     <footer>
-    <nav>
-        <ul class="meni"> <!--Meni class-only for small changes (removing bullet points)-->
-            <li><a href="">O Nama </a></li>
-            <li><a href="">Oglasavanje</a></li>
-            <li><a href="">Kontakt</a></li>
-            <li><a href="">Impresum</a></li>
-            <li><a href="">Uslovi koriscenja </a></li>
-            <li><a href="">Politika privatnosti </a></li>
+        <nav>
+            <ul class="meni"> <!--Meni class-only for small changes (removing bullet points)-->
+                <li><a href="">O Nama </a></li>
+                <li><a href="">Oglasavanje</a></li>
+                <li><a href="">Kontakt</a></li>
+                <li><a href="">Impresum</a></li>
+                <li><a href="">Uslovi koriscenja </a></li>
+                <li><a href="">Politika privatnosti </a></li>
 
-            <p> Pratite nas </p>
-            <button><i class="fa-brands fa-square-facebook"></i></button>
-            <button><i class="fa-brands fa-x-twitter"></i></button>
-            <button><i class="fa-brands fa-linkedin-in"></i></button>
-            <button><i class="fa-brands fa-youtube"></i></button>
-            <button><i class="fa-solid fa-square-rss"></i></button>
-        </ul>
-    </nav>
+                <p> Pratite nas </p>
+                <button><i class="fa-brands fa-square-facebook"></i></button>
+                <button><i class="fa-brands fa-x-twitter"></i></button>
+                <button><i class="fa-brands fa-linkedin-in"></i></button>
+                <button><i class="fa-brands fa-youtube"></i></button>
+                <button><i class="fa-solid fa-square-rss"></i></button>
+            </ul>
+        </nav>
    </footer>
 </body>
 </html>
