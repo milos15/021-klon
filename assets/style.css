@@ -144,8 +144,18 @@ header {
     color: #3f3b3c; 
 }
 
- 
+.footer-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #373434;
+    color: white; 
+    font-size: 12px;
+}
 
+.footer-end p {
+    margin-left: 50px;
+}
 
 
 
