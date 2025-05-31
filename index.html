@@ -21,7 +21,7 @@
 
             <!--Meni-->
             <nav>
-                <ul class="meni"> 
+                <ul class="meni-items"> 
                     <li><a href="https://www.021.rs/Najnovije/3">Najnovije</a></li>
                     <li><a href="/protesti">Protesti</a></li>
                     <li><a href="/novi-sad">Novi Sad</a></li>
@@ -46,37 +46,44 @@
 
     <main>
         <!--First section -->
-        <section class="articles">
-            <div class="left-side">
-                <article>
-                    <img src="https://picsum.photos/620/360" alt="">
-                    <h1> Gradnja Fruškogorskog koridora: Nadzor poskupeo za 600 miliona dinara </h1>
-                </article>
+        <section class="first-section">
+            <div class="left-side"></div>
+            
+            <!--Featured Article -->
+                <div class="article-card">
+                    <figure class="article-image">
+                    <img src="https://picsum.photos/620/360" alt="" />
+                    </figure>
+                    <h3 class="article-title"> Gradnja Fruškogorskog koridora: Nadzor poskupeo za 600 miliona dinara </h3>
+                </div>
 
-                <article>
-                    <img src="https://picsum.photos/300/170" alt="">
-                    <h1> Rukometni spektakl u Novom Sadu: Najmlađi pokazali šta znači borbenost </h1>
-                </article>
+                <div class="article-card">
+                    <figure class="article-image">
+                    <img src="https://picsum.photos/300/170" alt="" />
+                    </figure>
+                    <h3 class="article-title"> Rukometni spektakl u Novom Sadu: Najmlađi pokazali šta znači borbenost </h3>
+                </div>
 
-                <article>
-                    <img src="https://picsum.photos/300/170" alt="">
-                    <h1> Gradnja Fruškogorskog koridora: Nadzor poskupeo za 600 miliona dinara </h1>
-                </article>
+                <div class="article-card">
+                    <figure class="article-image">
+                    <img src="https://picsum.photos/300/170" alt="" />
+                    </figure>
+                    <h3 class="article-title"> Rukometni spektakl u Novom Sadu: Najmlađi pokazali šta znači borbenost </h3>
+                </div>
 
-                <article>
-                    <img src="https://picsum.photos/300/170" alt="">
-                    <h1> Zavod za statistiku: Stopa nezaposlenosti u Srbiji smanjena </h1>
-                </article>
+                <div class="article-card">
+                    <figure class="article-image">
+                    <img src="https://picsum.photos/300/170" alt="" />
+                    </figure>
+                    <h3 class="article-title"> Rukometni spektakl u Novom Sadu: Najmlađi pokazali šta znači borbenost </h3>
+                </div>
 
-                <article>
-                    <img src="https://picsum.photos/300/170" alt="">
-                    <h1> Imate li kutiju?</h1>
-                </article>
-
-                <article>
-                    <img src="https://picsum.photos/300/170" alt="">
-                    <h1> Sledeće sedmice preko 30 stepeni </h1>
-                </article>
+                <div class="article-card">
+                    <figure class="article-image">
+                    <img src="https://picsum.photos/300/170" alt="" />
+                    </figure>
+                    <h3 class="article-title"> Rukometni spektakl u Novom Sadu: Najmlađi pokazali šta znači borbenost </h3>
+                </div>
             </div>
 
             <div class="right-side">
@@ -177,24 +184,26 @@
         </section>
     </main>
 
+    <!--Footer-->
     <footer>
-        <nav>
-            <ul class="meni"> <!--Meni class-only for small changes (removing bullet points)-->
+        <div class="left-footer">
+            <ul class="meni-footer">
                 <li><a href="">O Nama </a></li>
-                <li><a href="">Oglasavanje</a></li>
+                <li ><a href="" class="orange-footer-item">Oglasavanje</a></li>
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Impresum</a></li>
                 <li><a href="">Uslovi koriscenja </a></li>
                 <li><a href="">Politika privatnosti </a></li>
+        </div>
 
-                <p> Pratite nas </p>
+        <div class="right-footer">   
+                <p> Pratite nas: </p>
                 <button><i class="fa-brands fa-square-facebook"></i></button>
-                <button><i class="fa-brands fa-x-twitter"></i></button>
                 <button><i class="fa-brands fa-linkedin-in"></i></button>
                 <button><i class="fa-brands fa-youtube"></i></button>
                 <button><i class="fa-solid fa-square-rss"></i></button>
             </ul>
-        </nav>
+        </div>
    </footer>
 </body>
 </html>
