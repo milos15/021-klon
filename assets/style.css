@@ -94,12 +94,19 @@ header {
  .right-side {
     width: 20%;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    flex-wrap: wrap;  
  }
 
  .article-card {
     width: 300px;
-    padding: 16px; 
+    padding: 16px;
+
+ }
+
+ .article-image{
+    width: 100%; 
+    height: auto; 
  }
 
  .article-title {
