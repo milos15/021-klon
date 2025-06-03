@@ -3,17 +3,23 @@ body {
     font-family: 'Maven Pro', sans-serif; 
 }
 
-main {
+/*If I want to use the color for a section */
+.section-color {
+    background-color: #f4f4f5;
+}
+
+/* If I don't want the full width of section elements */
+.container {
     max-width: 1300px; 
     margin-left: auto;
     margin-right: auto;
 }
 
+/********** Navbar ************/
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     border-bottom: 8px solid #f15c25;
     background-color: #f4f4f5;
     position: sticky;
@@ -82,10 +88,8 @@ header {
     border-radius: 5px;   
  }
 
-
-
+ /********** First section ************/
 .first-section {
-    background-color: #f4f4f5;
     display:flex;
     flex-direction: row; 
     justify-content: space-between;
@@ -158,11 +162,6 @@ header {
     border-radius: 0 10% 10% 0;
 }
 
-
-
-
-
-
 /********** Footer ************/
  footer {
     background-color: #3f3b3c;
@@ -230,15 +229,3 @@ header {
 .footer-end p {
     margin-left: 50px;
 }
-
-
-
-
-
- 
-
-
-
-
-
-
