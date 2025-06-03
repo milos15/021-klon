@@ -10,7 +10,8 @@ body {
 
 /* If I don't want the full width of section elements */
 .container {
-    max-width: 1300px; 
+    max-width: 1300px;
+    width: 100%; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -160,6 +161,86 @@ header {
     margin-top: 0;
     padding: 2px; 
     border-radius: 0 10% 10% 0;
+}
+
+/********** Second section ************/
+.second-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px; 
+    background-color: white;
+}
+
+.second-section button {
+    all: revert; /* Give me back the default button */
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    background-color: #faf5f1;
+    color: #087cd1;
+    font-size: 15px; 
+}
+
+.second-section img {
+    border-radius: 5px;
+    width: 250px;
+    height:auto;
+}
+
+.second-section h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 90%
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px; 
+    background-color: #203e95;
+    color: white;
+    border-radius: 6px;    
+    padding: 10px 0px 10px 10px;
+    width: 20%;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 20px; 
+    border-radius: 6px;    
+    padding: 10px 0px 10px 10px;
+    width: 20%;
+}
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 20px; 
+    border-radius: 6px;    
+    padding: 10px 0px 120px 10px;
+    width: 20%;
+
+}
+.najnovije {
+    width: 18%;
+    margin: 15px 0 0 60px;
+    border-radius: 6px;
+    background-color: #f4f4f5;
+    padding: 10px 0px 120px 10px;
+}
+
+.najnovije h1 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    border: none; 
 }
 
 /********** Footer ************/
